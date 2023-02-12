@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/IndexPage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Faster One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="navbar">
+                <div class="navlink justify-content-end">
+                    <div class="navtab">
+                        <a class="navlinka" href="#">關於我們</a>
+                    </div>
+                    <div class="navtab">
+                        <a class="navlinka" href="../html/Coach.html">認識教練</a>
+                    </div>
+                    <div class="navtab">
+                        <a class="navlinka" href="../html/Environment.html">環境介紹</a>
+                    </div>
+                    <div class="navtab">
+                        <a class="navlinka" href="#">最新消息</a>
+                    </div>
+                    <div class="navtab">
+                        <a class="navlinka" href="#">課程介紹</a>
+                    </div>
+                    <div class="navtab">
+                        <a class="navlinka" href="#">知識專欄</a>
+                    </div>
+                    <div class="navtab">
+                        <button>
+                            <span>登入</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-person-circle" viewBox="0 0 16 16" style="padding-bottom:4%;">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="navtab">
+                        <div class="hamburger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" onclick="hamburgerclick()">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+        <div class="sidebarposition">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" onclick="cancelclick()">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              </svg>
+            <ul >
+                <li>
+                    <a href="#">關於我們</a>
+                </li>
+                <li>
+                    <a href="./Coach.html">認識教練</a>
+                </li>
+                <li>
+                    <a href="#">環境介紹</a>
+                </li>
+                <li>
+                    <a href="#">最新消息</a>
+                </li>
+                <li>
+                    <a href="#">課程介紹</a>
+                </li>
+                <li>
+                    <a href="#">知識專欄</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <div class="bigimage">
+                <img src="../img/home-SEO1.png" />
+            </div>
+            <br>
+            <div class="whoarewebox">
+                <div class="backbox"></div>
+                <h1>我們是誰？</h1>
+                <pre>
+
+我們是一群嚮往擁有健康、苗條身材的女孩們！
+在健康意識漸漸啟蒙的社會中
+專屬於女性的健身房卻少之又少
+為了提倡女性運動的風氣
+我們便設立了一家主打女性運動的健身房
+        
+                </pre>
+
+                <button style="border-radius:30px; border:none; font-family:Josefin Sans; ">Get to know Us</button>
+                <img src="../img/我們是誰去背圖.png" />
+
+            </div>
+
+            <hr style="margin-top:3%;">
+
+            <div class="classtypeTitle">
+                <h1 style="font-family:Commissioner; ">尋找你喜歡的課程類型</h1>
+            </div>
+
+            <div class="classtype">
+
+                <div class="carddiv">
+                    <div class="card" style="width: 100%; height:30%;">
+                        <img src="../img/cardio.jpg" class="card-img-top" />
+                        <div class="card-body">
+                            <h1>Cardio</h1>
+                            <p class="card-text">
+                                意思是指在運動時隨時在體內充份攝取的氧氣，利用步行、跑步、跳躍,以各種不同於手臂擺動和踢腿動作配合輕快緊湊的音樂節奏與全身的大肌肉活動一起實施的健身運動。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carddiv">
+                    <div class="card" style="width: 100%; height:30%;">
+                        <img src="../img/boxing1.jpg" class="card-img-top" />
+                        <div class="card-body">
+                            <h1>Boxing</h1>
+                            <p class="card-text">
+                                有氧拳擊能確實地消耗練習者的身體熱量。整堂課穿插空拳訓練、打手靶（擊打沙袋或拳擊手靶）、健身及跳繩等動作，以有趣愉快且具健身功能的練習方式，來提升心肺功能和肌力。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carddiv">
+                    <div class="card" style="width: 100%; height:30%;">
+                        <img src="../img/Rectangle 3.png" class="card-img-top" />
+                        <div class="card-body">
+                            <h1>Spinning Wheel</h1>
+                            <p class="card-text">飛輪是固定腳踏車的一種變化，可以透過調整座椅的高度、手握把的高度以致自己最舒服的騎乘，結合音樂的踩踏讓心率快速上升以達燃脂效果</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+            <div class="picdiv">
+                <h2 class="picword">
+                    The gym will always provide the most important tool we need to get through life's challenge –
+                    Perseverance.
+                </h2>
+                <img src="../img/smile runner.jpg" style="width:100%;filter: brightness(60%);" />
+            </div>
+
+
+            <div class="wherearewebox">
+                <div>
+                    <h1 class="memberTitle">尋找適合自己的會籍</h1>
+                   <hr>
+                    <div class="membercarddiv">
+                        <div class="membercard1">
+                            <div class="card" style="width: 90%; height:30%;">
+                                <img src="../img/diverse-young-sporty-people-doing-warrior-one-exercise-group-lesson-practicing-yoga-modern-fitness-center-standing-168459727.jpg"
+                                    class="card-img-top" />
+                                <div class="card-body">
+                                    <h1 style="font-weight:bolder;">團體課程</h1>
+                                    <p class="card-text">
+                                        有氧拳擊能確實地消耗練習者的身體熱量。整堂課穿插空拳訓練、打手靶（擊打沙袋或拳擊手靶）、健身及跳繩等動作，以有趣愉快且具健身功能的練習方式，來提升心肺功能和肌力。
+                                    </p>
+                                    <button>了解更多</button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="membercard2">
+                            <div class="card" style="width: 90%; height:30%;">
+                                <img src="../img/program_development2.jpg" class="card-img-top" />
+                                <div class="card-body">
+                                    <h1 style="font-weight:bolder;">一對一專屬課程</h1>
+                                    <p class="card-text">
+                                        有氧拳擊能確實地消耗練習者的身體熱量。整堂課穿插空拳訓練、打手靶（擊打沙袋或拳擊手靶）、健身及跳繩等動作，以有趣愉快且具健身功能的練習方式，來提升心肺功能和肌力。
+                                    </p>
+                                    <button>了解更多</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <br><br>
+
+            <div>
+                <div class="formdiv">
+                    <div class="formdivback">
+                        <img src="../img/image-removebg-preview (2).png" />
+                        <pre>
+在猶豫要選擇甚麼課程嗎？
+不如直接來體驗看看吧！
+                        </pre>
+                        <button>點我預約</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="footer">
+        <div class="container">
+            <div class="row test">
+                <div class="col-md-4" style="padding-top: 5%;">
+                    <p>CONTACT US</p>
+                    <p>
+                        <a href="https://twitter.com/Rachadesu"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                                height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg></a>
+
+                        <a href="https://www.facebook.com/reiyufan1047/"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                            </svg></a>
+
+                        <a href="https://www.instagram.com/racha10_/?igshid=YzAyZWRlMzg%3D"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg></a>
+                    </p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: 0919066298</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>Email:rachel410043@gmail.com</p>
+                </div>
+                <div class="col-md-8" style="padding-top: 5%;">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                required>
+                        </div>
+                    </div>
+                    <br>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                        rows="5"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button onclick="inputall()" class="btn pull-right" type="submit"
+                                id="footerbtn">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function hamburgerclick() {
+            $('.sidebar').attr({style:"display:block;"})
+        }
+
+        function cancelclick() {
+            $('.sidebar').attr({style:"display:none;"})
+        }
+
+
+
+        const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    const square = entry.target.querySelector('.backbox');
+    const whoimg= entry.target.querySelector('.whoarewebox img');
+    const whobtn= entry.target.querySelector('.whoarewebox button');
+
+    if (entry.isIntersecting) {
+      square.classList.add('square-animation');
+      whoimg.classList.add('fade-in');
+      whobtn.classList.add('fade-in');
+	  return; // if we added the class, exit the function
+    }
+
+    // We're not intersecting, so remove the class!
+      whoimg.classList.remove('fade-in');
+      whobtn.classList.remove('fade-in');
+    square.classList.remove('square-animation');
+  });
+});
+
+observer.observe(document.querySelector('.whoarewebox'));
+        
+    </script>
+</body>
+
+</html>

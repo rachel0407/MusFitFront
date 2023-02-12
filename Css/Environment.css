@@ -1,0 +1,192 @@
+@media screen and (min-width:992px){
+
+body{
+    overflow-x: hidden;
+}
+
+.hamburger{
+    display: none;
+}
+
+    .navtab a {
+        font-size: 26px;
+        color: rgb(118, 117, 117);
+        font-weight: bold;
+    }
+
+
+    .navtab a:hover {
+        color: #7F6F94;
+        text-decoration: none;
+    }
+
+    .navbar {
+
+        border-width: 0.5px;
+        border-color: #85677D;
+        width: 100%;
+        margin-top: 2%;
+
+
+    }
+
+    .navlink {
+        width: 100%;
+        display: flex;
+    }
+
+    .navtab {
+        margin-left: 3%;
+    }
+
+    .navtab button {
+        border-radius: 5px;
+        background-color: #AC8BA5;
+        color: #ffff;
+        border: none;
+
+        font-size: 26px;
+        width: 120px;
+        font-weight: bold;
+    }
+
+    .navtab button:hover {
+        background-color: #DBC5D5;
+        color: #94768C;
+
+    }
+
+    .navtab button:focus {
+        width: 150px;
+    }
+
+
+.content{
+    display: inline-flex;
+    
+}
+
+.showpic{
+    position: absolute;
+    width:40%;
+border:solid;
+   margin-left: 59%;
+   height: 75%;
+}
+
+.mycontain{
+    position: absolute;
+    width:60%;
+    height: 75%;
+
+}
+
+
+#scene .layer{
+    width:100%;
+    position: absolute;
+
+}
+
+#scene .layer img{
+    width:100%;
+    position: absolute;
+
+
+}
+
+
+.cat{
+    z-index: 1;
+    position: absolute;
+    color: rgba(0,0,0,0.7);
+
+}
+
+.cat svg:hover{
+animation: buttonenlarge 1s;
+animation-fill-mode: forwards; 
+
+}
+
+.dog1{
+    margin-left: 70%;
+    margin-top: 35%;
+}
+
+.dog2{
+    margin-left: 30%;
+    margin-top: 37.5%;
+}
+
+.dog3{
+    margin-left: 40%;
+    margin-top: 35%;
+}
+
+.dog4{
+    margin-left: 38%;
+    margin-top: 52%;
+}
+
+.dog5{
+    margin-left: 20%;
+    margin-top: 27%;
+}
+
+.dog6{
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+.dog7{
+    margin-left: 55%;
+    margin-top: 25%;
+}
+
+.dog8{
+    margin-left: 70%;
+    margin-top: 18%;
+}
+
+.dog9{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.Image-Enlarge{
+    animation: enlarge 1s;
+    animation-fill-mode: forwards; 
+}
+
+.darker{
+    filter:brightness(60%)
+}
+
+
+}
+
+@keyframes enlarge {
+    0%{
+        transform: scale(1);
+       
+    }
+
+    100%{
+        transform: scale(1.2);
+        margin-top: -10%;
+
+    }
+}
+
+@keyframes buttonenlarge {
+    0%{
+        transform: scale(1);
+       
+    }
+
+    100%{
+        transform: scale(1.5);
+
+
+    }
+}

@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+@media screen and (max-width:600px) {
+    .navtab a{
+        display: none;
+    }
+
+    .navtab button{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .coachInTitleDiv {
+
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .coachInTitleDiv h1 {
+        font-size: 30px;
+        font-family: 'Abril Fatface', cursive;
+
+    }
+
+
+    .coachcarousel {
+        width: 100%;
+        height: 300px;
+        display: none;
+        overflow: hidden;
+        margin-top: 2%;
+        background-color: #F0EAF0;
+
+    }
+
+    .coachpicdiv {
+        width: 45%;
+    }
+
+    .coachpicdiv img {
+        width: 100%;
+    }
+
+    .coachnameblok {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.603);
+        margin-top: 38%;
+        width: 30%;
+        height: 10%;
+    }
+
+    .coachnameblok h1 {
+        font-family: 'Abril Fatface', cursive;
+        color: #ffff;
+        padding-left: 10%;
+        padding-top: 7%;
+        font-size: 20px;
+    }
+
+    .carouselbtn {
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 36%;
+        color: #ffff;
+
+    }
+
+    .carouselbtn svg{
+        width:35px;
+    }
+    .carouselbtn svg:hover {
+        animation: hoverbig 0.5s;
+    }
+
+    .carouselbtn svg:hover::after, .carouselbtn svg:focus::after {
+        animation: none;
+    }
+
+    .coachIndiv {
+
+        width: 70%
+    }
+
+    .InPicWidth {
+        width: 76%;
+        height: 35%;
+        margin-top: 145%;
+        margin-left: 20%;
+display: none;
+    }
+
+    .InPicWidth img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .InPicsqure {
+        position: absolute;
+        width: 30%;
+display: none;
+  
+        margin-top: 65%;
+    }
+
+    .InPicsqure img {
+        width: 100%;
+    }
+
+    .coachText {
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 5%;
+    
+    }
+
+    .coachText h1 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 24px;
+    }
+
+    .coachText pre {
+
+        font-size: 16px;
+    }
+
+    .fade-in-image {
+        animation: fadeIn 5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+
+
+    @keyframes hoverbig {
+        0% {
+            width: 30px;
+        }
+
+        100% {
+            width: 35px;
+        }
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+.hamburger{
+    display: none;
+}
+
+    .navtab a {
+        font-size: 26px;
+        color: rgb(118, 117, 117);
+        font-weight: bold;
+    }
+
+
+    .navtab a:hover {
+        color: #7F6F94;
+        text-decoration: none;
+    }
+
+    .navbar {
+
+        border-width: 0.5px;
+        border-color: #85677D;
+        width: 100%;
+        margin-top: 2%;
+
+
+    }
+
+    .navlink {
+        width: 100%;
+        display: flex;
+    }
+
+    .navtab {
+        margin-left: 3%;
+    }
+
+    .navtab button {
+        border-radius: 5px;
+        background-color: #AC8BA5;
+        color: #ffff;
+        border: none;
+
+        font-size: 26px;
+        width: 120px;
+        font-weight: bold;
+    }
+
+    .navtab button:hover {
+        background-color: #DBC5D5;
+        color: #94768C;
+
+    }
+
+    .navtab button:focus {
+        width: 150px;
+    }
+
+
+
+    .coachInTitleDiv {
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+
+    .coachInTitleDiv h1 {
+        font-size: 55px;
+        font-family: 'Abril Fatface', cursive;
+
+    }
+
+
+    .coachcarousel {
+        width: 100%;
+        height: 640px;
+        display: none;
+        overflow: hidden;
+        margin-top: 2%;
+        background-color: #F0EAF0;
+
+    }
+
+    .coachpicdiv {
+        width: 30%;
+    }
+
+    .coachpicdiv img {
+        width: 100%;
+    }
+
+    .coachnameblok {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.603);
+        margin-top: 31%;
+        width: 23%;
+        height: 15%;
+    }
+
+    .coachnameblok h1 {
+        font-family: 'Abril Fatface', cursive;
+        color: #ffff;
+        padding-left: 10%;
+        padding-top: 7%;
+    }
+
+    .carouselbtn {
+        position: absolute;
+        margin-left: 27%;
+        margin-top: 20%;
+
+    }
+
+    .carouselbtn svg:hover {
+        animation: hoverbig 0.5s;
+    }
+
+    .carouselbtn svg:hover::after, .carouselbtn svg:focus::after {
+        animation: none;
+    }
+
+    .coachIndiv {
+
+        width: 70%
+    }
+
+    .InPicWidth {
+        width: 76%;
+        height: 35%;
+        margin-top: 36%;
+        margin-left: 12%;
+    }
+
+    .InPicWidth img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .InPicsqure {
+        position: absolute;
+        width: 20%;
+        margin-left: 43%;
+        margin-top: 5%;
+    }
+
+    .InPicsqure img {
+        width: 100%;
+    }
+
+    .coachText {
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    .coachText h1 {
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .coachText pre {
+
+        font-size: 24px;
+    }
+
+    .fade-in-image {
+        animation: fadeIn 5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+
+
+    @keyframes hoverbig {
+        0% {
+            width: 55px;
+        }
+
+        100% {
+            width: 74px;
+        }
+    }
+
+}

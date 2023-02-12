@@ -1,0 +1,98 @@
+body{
+    overflow: hidden;
+}
+.navbar {
+
+    border-width: 0.5px;
+    border-color: #85677D;
+    width: 100%;
+    margin-top: 2%;
+
+ 
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+}
+
+.navtab {
+    margin-left: 3%;
+}
+
+    .navtab button {
+        border-radius: 5px;
+        background-color: #AC8BA5;
+        color: #ffff;
+        border: none;
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+        font-size: 26px;
+        font-weight: bold;
+    }
+        .navtab button:hover {
+            background-color: #DBC5D5;
+            color: #94768C;
+            animation-name: loginbutton;
+            animation-duration: 1s;
+        }
+        .navtab button:focus {
+            width: 150px;
+        }
+
+
+    .navtab a {
+        color: #7F6F94;
+        font-size:26px;
+        font-weight:bold;
+    }
+
+    .navtab a:hover {
+        color: #7F6F94;
+        text-decoration:none;
+    }
+
+    .content{
+        width:100%;
+    }
+
+/*animetion*/
+@keyframes loginbutton {
+    from {
+        width: 120px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+
+
+
+
+.backimg {
+    width: 100%;
+    height: 40%;
+}
+
+
+
+    .backimg img {
+        width: 100%;
+        object-fit: contain;
+        filter: brightness(60%);
+    }
+
+    .backimg .logoname {
+        z-index: 1;
+        color: #ffff;
+        position: absolute;
+        padding-left: 51%;
+        padding-top: 19%;
+    }
+
+    .backimg a:hover{
+        text-decoration: none;
+    }
+

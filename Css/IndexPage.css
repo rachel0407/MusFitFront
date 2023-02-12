@@ -1,0 +1,577 @@
+@media screen and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    a.navlinka {
+        display: none;
+    }
+
+    .navtab button {
+        display: none;
+    }
+
+    .whoarewebox img {
+        margin-top: 45%;
+        width: 66%;
+        margin-left: 5%;
+
+    }
+
+    .whoarewebox {
+        width: 90%;
+        display: block;
+    }
+
+
+    .whoarewebox h1 {
+        margin-top: 6%;
+        font-size: 36px;
+    }
+
+    .whoarewebox pre {
+        font-size: 18px;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 2%;
+
+    }
+
+    .whoarewebox button {
+        font-size: 22px;
+        margin-top: 99%;
+        margin-left: 22%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: black;
+        color: #ffff;
+    }
+
+    .classtypeTitle h1 {
+        font-size: 36px;
+
+    }
+
+    .classtype {
+        width: 95%;
+        display: block;
+    }
+
+    .card-text {
+        font-size: 20px;
+
+    }
+
+    .picword {
+        position: absolute;
+        z-index: 1;
+        color: #ffff;
+        margin-top: 26%;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+    }
+
+    .memberTitle {
+        font-size: 36px;
+        padding-left: 3%;
+        font-weight: bolder;
+        padding-top: 5%;
+    }
+
+    .wherearewebox {
+        background-color: #E6E2E8;
+        height: 1300px;
+        width: 100%;
+
+    }
+
+    .picdiv {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .membercarddiv {
+        display: block;
+    }
+
+    .membercard1 {
+        margin-left: 5.5%;
+        margin-top: 2%;
+
+    }
+
+    .membercard2 {
+        margin-left: 5.5%;
+        margin-top: 2%;
+    }
+
+    .membercard1 button {
+        background-color: black;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 18px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin-left: 65%;
+    }
+
+    .membercard2 button {
+        background-color: black;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 18px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin-left: 65%;
+    }
+
+
+    .formdiv button {
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        border-radius: 0% 0% 20px 20px;
+        font-weight: bold;
+        width: 100%;
+
+    }
+
+    .formdiv img {
+        width: 45%;
+        object-fit: contain;
+        margin-left: 25%;
+    }
+
+    .formdivback pre {
+        padding-left: 20%;
+
+        font-size: 20px;
+        font-weight: bolder;
+
+    }
+
+    .formdivback {
+        width: 85%;
+        height: 100%;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin-left: 7.3%;
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+
+
+    .sidebar {
+        position: relative;
+        width: 100%;
+        display: none;
+    }
+
+    .sidebarposition {
+        position: absolute;
+        z-index: 6;
+        background-color:#ECECEC;
+        height: 550px;
+        width: 100%;
+
+    }
+
+    .sidebar li {
+        list-style-type: none;
+        margin-top: 9%;
+        font-size: 30px;
+        margin-left: 33%;
+
+
+    }
+
+    .sidebarposition a{
+        color: black;
+        text-decoration: none;
+
+    }
+
+    
+    .sidebarposition a:hover{
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:992px) {
+    a.navlinka {
+        font-size: 22px;
+    }
+
+    .navtab button {
+        font-size: 22px;
+        width: 120px;
+    }
+
+
+    .whoarewebox img {
+        margin-left: 44%;
+        width: 42.5%;
+    }
+
+    .whoarewebox {
+        width: 85%;
+        display: flex
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .square-animation {
+          animation: wipe-enter 1s 1;
+        }
+
+        .fade-in{
+            animation:fade-enter 1.5s;
+        }
+      }
+
+    .whoarewebox h1 {
+        font-size: 48px;
+        margin-top: 5%;
+    }
+
+    .whoarewebox pre {
+        font-size: 26px;
+        margin-left: 5%;
+        margin-top: 7%;
+
+    }
+
+    .whoarewebox button {
+        font-size: 38px;
+        margin-top: 25%;
+        margin-left: 5%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .classtypeTitle h1 {
+        font-size: 47px;
+
+    }
+
+    .classtype {
+        width: 95%;
+        display: inline-flex;
+    }
+
+    .card-body h1{
+        font-size: 30px;
+
+    }
+
+    .card-text {
+        font-size: 20px;
+
+    }
+
+    .picword {
+        position: absolute;
+        z-index: 1;
+        color: #ffff;
+        margin-top: 30%;
+        margin-left: 5%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 45px;
+    }
+
+    .memberTitle {
+        font-size: 45px;
+        padding-left: 3%;
+        padding-top: 5%;
+        font-weight: bolder;
+    }
+
+    .wherearewebox {
+        background-color: #E6E2E8;
+        height: 800px;
+        width: 100%;
+
+    }
+
+    .picdiv {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .membercarddiv {
+        display: inline-flex;
+    }
+
+    .membercard1 {
+        margin-left: 5.5%;
+        margin-top: 2%;
+
+    }
+
+    .membercard2 {
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+
+    .membercard1 button {
+        background-color: black;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin-left: 70%;
+    }
+
+    .membercard2 button {
+        background-color: black;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 25px;
+        border-radius: 30px;
+        font-weight: bold;
+        margin-left: 70%;
+    }
+
+
+    .formdiv button {
+        background-color: black;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 35px;
+        border-radius: 0% 20px 20px 0%;
+        font-weight: bold;
+        margin-left: 18.1%;
+    }
+
+    .formdivback pre {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-top: 9%;
+        margin-left: 5%;
+        overflow: hidden;
+    }
+
+    .formdivback {
+        width: 85%;
+        height: 100%;
+        border-radius: 20px;
+        background-color: #D9D9D9;
+        margin-left: 7.3%;
+        display: inline-flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .sidebar{
+        display: none; 
+    }
+
+    @keyframes wipe-enter {
+        0% {
+            transform: scale(0, .025);
+        }
+        50% {
+            transform: scale(1, .025);
+        }
+    }
+
+    
+    @keyframes fade-enter {
+        0% {
+           opacity: 0;
+        }
+        50% {
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+
+
+
+
+.navbar {
+
+    border-width: 0.5px;
+    border-color: #85677D;
+    width: 100%;
+    margin-top: 2%;
+
+
+}
+
+.navlink {
+    width: 100%;
+    display: flex;
+}
+
+.navtab {
+    margin-left: 3%;
+}
+
+.navtab button {
+    border-radius: 5px;
+    background-color: #AC8BA5;
+    color: #ffff;
+    border: none;
+
+
+    font-weight: bold;
+}
+
+.navtab button:hover {
+    background-color: #DBC5D5;
+    color: #94768C;
+    animation-name: loginbutton;
+    animation-duration: 1s;
+}
+
+.navtab button:focus {
+    width: 150px;
+}
+
+
+.navtab a {
+    color: #7F6F94;
+
+    font-weight: bold;
+}
+
+.navtab a:hover {
+    color: #7F6F94;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+}
+
+/*animetion*/
+@keyframes loginbutton {
+    from {
+        width: 120px;
+    }
+
+    to {
+        width: 150px;
+    }
+}
+
+.bigimage img {
+    width: 100%;
+}
+
+.whoarewebox {
+
+
+    margin-top: 2%;
+    margin-left: 7.5%;
+    height: 530px;
+    border-radius: 10px;
+    display: flex
+}
+
+.whoarewebox .backbox {
+    background-color: #8D81A8;
+    height: 85%;
+    width: 100%;
+    margin-top: 4.5%;
+    border-radius: 10px;
+}
+
+.whoarewebox img {
+
+    position: absolute;
+
+
+
+    object-fit: contain;
+}
+
+.whoarewebox h1 {
+    z-index: 1;
+    position: absolute;
+    margin-left: 5%;
+    font-weight: bold;
+
+
+    color: #ffff;
+}
+
+.whoarewebox pre {
+    z-index: 1;
+    position: absolute;
+
+
+
+    color: #ffff;
+}
+
+.whoarewebox button {
+    z-index: 1;
+    position: absolute;
+
+}
+
+.classtypeTitle h1 {
+
+    color: #726474;
+    font-weight: bolder;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+
+.carddiv {
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.card-text {
+    color: #757474;
+}
+
+.card-text h1 {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+
+
+
+
+.formdiv {
+    width: 100%;
+    height: 300px;
+}
