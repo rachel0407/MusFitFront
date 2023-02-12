@@ -6,86 +6,357 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../Css/try.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" href="../Css/try.css">
   <title>Document</title>
 </head>
 <body>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="square-wrapper">
-    <div class="square"></div>
-  </div>
-
+  <svg style="position: absolute; width: 0; height: 0; display: none;">
+    <symbol id="icon-arrow" viewBox="0 0 96 96">
+      <title>Arrow</title>
+      <path d="M39.66,13.34A8,8,0,0,0,28.34,24.66L51.69,48,28.34,71.34A8,8,0,0,0,39.66,82.66l29-29a8,8,0,0,0,0-11.31Z"/>
+    </symbol>
+  </svg>
   
- 
+  <div class="wrapper">
+    <h1>Calendar</h1>
+    <div class="sticky-header">
+      <span>Calendar</span>
+    </div>
+    <div class="table">
+      <div class="headers">
+        <div class="buttons">
+          <button class="btn-left">
+            <svg><use xlink:href="#icon-arrow"></use></svg>
+          </button>
+          <button class="btn-right">
+            <svg><use xlink:href="#icon-arrow"></use></svg>
+          </button>
+        </div>
+        <div class="scroller syncscroll" name="myElements">
+          <div class="track time">
+            <div class="heading">Time</div>
+          </div>
+          <div class="track">
+            <div class="heading">Monday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Tuesday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Wednesday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Thursday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Friday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Saturday</div>
+          </div>
+          <div class="track">
+            <div class="heading">Sunday</div>
+          </div>
+        </div>
+      </div>
+      <div class="tracks syncscroll" name="myElements">
+        <div class="track time">
+          <div class="entry">
+            <time>09.00</time>
+          </div>
+          <div class="entry">
+            <time>10.00</time>
+          </div>
+          <div class="entry">
+            <time>11.00</time>
+          </div>
+          <div class="entry">
+            <time>12.00</time>
+          </div>
+          <div class="entry">
+            <time>13.00</time>
+          </div>
+          <div class="entry">
+            <time>14.00</time>
+          </div>
+          <div class="entry">
+            <time>15.00</time>
+          </div>
+          <div class="entry">
+            <time>16.00</time>
+          </div>
+          <div class="entry">
+            <time>17.00</time>
+          </div>
+        </div>
+        <div class="track yellow">
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry double">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere!</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="track turq">
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <div class="track blue">
+  
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry double">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+        </div>
+        <div class="track green">
+          <div class="entry treble">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, omnis voluptas?</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+        </div>
+        <div class="track purple">
+  
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry double">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+        </div>
+        <div class="track gray">
+  
+          <div class="entry">
+          </div>
+          <div class="entry">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry treble">
+            <div class="details">
+              <h3>Lorem ipsum dolor sit.</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+        </div>
+        <div class="track">
+  
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+          <div class="entry">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="top-of-site-pixel-anchor"></div>
+
   <script>
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    const square = entry.target.querySelector('.square');
+    const btnR = document.querySelector('.btn-right');
+const btnL = document.querySelector('.btn-left');
+const tracks = document.querySelector('.tracks');
+const tracksW = tracks.scrollWidth;
 
-    if (entry.isIntersecting) {
-      square.classList.add('square-animation');
-	  return; // if we added the class, exit the function
-    }
-
-    // We're not intersecting, so remove the class!
-    square.classList.remove('square-animation');
+btnR.addEventListener('click', _ => {
+  tracks.scrollBy({
+    left: tracksW / 2,
+    behavior: 'smooth'
   });
 });
 
-observer.observe(document.querySelector('.square-wrapper'));
+btnL.addEventListener('click', _ => {
+  tracks.scrollBy({
+    left: -tracksW / 2,
+    behavior: 'smooth'
+  });
+});
+
+
+let observer = new IntersectionObserver(entries => {
+  if (!entries[0].isIntersecting) {
+    document.body.classList.add("reveal");
+  } else {
+    document.body.classList.remove("reveal");
+  }
+});
+observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
   </script>
 </body>
 </html>
