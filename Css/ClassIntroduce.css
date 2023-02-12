@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+@media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    a.navlinka {
+        display: none;
+    }
+
+    .navtab button {
+        display: none;
+
+    }
+
+    .navbar {
+
+        border-width: 0.5px;
+        border-color: #85677D;
+        width: 100%;
+        margin-top: 2%;
+    
+    
+    }
+    
+    .navlink {
+        width: 100%;
+        display: flex;
+    }
+    
+    .navtab {
+        margin-left: 3%;
+    }
+    
+    .navtab button {
+        border-radius: 5px;
+        background-color: #AC8BA5;
+        color: #ffff;
+        border: none;
+    
+    
+        font-weight: bold;
+    }
+    
+    .navtab button:hover {
+        background-color: #DBC5D5;
+        color: #94768C;
+        animation-name: loginbutton;
+        animation-duration: 1s;
+    }
+    
+    .navtab button:focus {
+        width: 150px;
+    }
+    
+    
+    .navtab a {
+        color: #7F6F94;
+    
+        font-weight: bold;
+    }
+    
+    .navtab a:hover {
+        color: #7F6F94;
+        text-decoration: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+
+    .bigimg{
+        width:100%;
+        position: relative;
+    }
+
+    .bigimg img{
+        width:100%;
+        filter: brightness(60%);
+    }
+
+.bigimg .textbox{
+    position: absolute;
+    z-index: 1;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+    .textbox h1{
+
+        color: #ffff;
+        font-family: 'Anton', sans-serif;
+       
+        font-size: 24PX;
+    }
+
+    .textbox P{
+        z-index: 1;
+        color: #ffff;
+        font-size: 16PX;
+        padding-right: 9%;
+
+    }
+
+    .typeTitle{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .typeTitle h1{
+        font-weight: bolder;
+        font-size: 34px;
+    }
+
+    .classcarddiv{
+        width:100%;
+
+        height: 800px;
+        margin-left: 2%;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .classcard{
+        width:28%;
+    padding-top: 2%;
+        height: 30%;
+        margin-left: 3%;
+
+
+    }
+    .classcard .cardimg{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .classcard .cardimg img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+
+    .classcard .cardtext{
+        height: 100%;
+        width: 100%;
+    }
+
+    .cardtext h4 a{
+        color:#625771;
+    }
+
+    .cardtext p{
+        display: none;
+    }
+    .cardtext h4 a:hover{
+      text-decoration: none;
+    }
+
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    a.navlinka {
+        font-size: 22px;
+    }
+
+    .navtab button {
+        font-size: 22px;
+        width: 120px;
+    }
+
+    .navbar {
+
+        border-width: 0.5px;
+        border-color: #85677D;
+        width: 100%;
+        margin-top: 2%;
+    
+    
+    }
+    
+    .navlink {
+        width: 100%;
+        display: flex;
+    }
+    
+    .navtab {
+        margin-left: 3%;
+    }
+    
+    .navtab button {
+        border-radius: 5px;
+        background-color: #AC8BA5;
+        color: #ffff;
+        border: none;
+    
+    
+        font-weight: bold;
+    }
+    
+    .navtab button:hover {
+        background-color: #DBC5D5;
+        color: #94768C;
+        animation-name: loginbutton;
+        animation-duration: 1s;
+    }
+    
+    .navtab button:focus {
+        width: 150px;
+    }
+    
+    
+    .navtab a {
+        color: #7F6F94;
+    
+        font-weight: bold;
+    }
+    
+    .navtab a:hover {
+        color: #7F6F94;
+        text-decoration: none;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+
+    .bigimg{
+        width:100%;
+        position: relative;
+    }
+
+    .bigimg img{
+        width:100%;
+        filter: brightness(60%);
+    }
+
+.bigimg .textbox{
+    position: absolute;
+    z-index: 1;
+    margin-left: 33%;
+    margin-top: 18%;
+}
+
+    .textbox h1{
+
+        color: #ffff;
+        font-family: 'Anton', sans-serif;
+       
+        font-size: 56PX;
+    }
+
+    .textbox P{
+        padding-left: 6%;
+        z-index: 1;
+        color: #ffff;
+
+    }
+
+    .typeTitle{
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .typeTitle h1{
+        font-weight: bolder;
+    }
+
+    .classcarddiv{
+        width:100%;
+
+        height: 800px;
+        margin-left: 2%;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .classcard{
+        width:28%;
+    padding-top: 2%;
+        height: 30%;
+        margin-left: 3%;
+
+
+    }
+    .classcard .cardimg{
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .classcard .cardimg img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+
+    .classcard .cardtext{
+        height: 100%;
+        width: 100%;
+    }
+
+    .cardtext h4 a{
+        color:#625771;
+    }
+
+    .cardtext h4 a:hover{
+      text-decoration: none;
+    }
+
+}

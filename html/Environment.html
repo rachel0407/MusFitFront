@@ -30,10 +30,10 @@
                         <a href="#">環境介紹</a>
                     </div>
                     <div class="navtab">
-                        <a href="#">最新消息</a>
+                        <a href="../html/Environment.html">最新消息</a>
                     </div>
                     <div class="navtab">
-                        <a href="#">課程介紹</a>
+                        <a href="../html/ClassIntroduce.html">課程介紹</a>
                     </div>
                     <div class="navtab">
                         <a href="#">知識專欄</a>
@@ -71,8 +71,62 @@
 <br>
         <div class="content">
             <div class="showpic">
-                <div>
-                    
+
+                <div class="textbox"></div>
+
+                <div class="textbox">
+                    <h1>有氧訓練區</h1>
+                    <hr>
+                    <p>所有會員皆可使用，但請注意音量以及環境整潔</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>拳擊室</h1>
+                    <hr>
+                    <p>僅限有氧拳擊、拳擊班的學員使用，不外借</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>重訓室</h1>
+                    <hr>
+                    <p>所有會員皆可使用，但請注意音量以及環境整潔</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>飛輪教室</h1>
+                    <hr>
+                    <p>飛輪教室僅限上有氧舞蹈班之會員使用，不外借</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>瑜珈教室</h1>
+                    <hr>
+                    <p>瑜珈教室所有會員皆可使用，但請注意音量以及環境整潔</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>有氧舞蹈教室</h1>
+                    <hr>
+                    <p>有氧舞蹈教室僅限上有氧舞蹈班之會員使用，不外借</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>櫃台</h1>
+                    <hr>
+                    <p>若要辦理會員或相關事宜，請至櫃台洽詢</p>
+                </div>
+
+
+                <div class="textbox">
+                    <h1>會員換洗室</h1>
+                    <hr>
+                    <p>內有廁所、淋浴室、更衣室</p>
+                </div>
+
+                <div class="textbox">
+                    <h1>健身房入口</h1>
+                    <hr>
+                    <p>健身房入口</p>
                 </div>
             </div>
             <div class="mycontain">
@@ -163,7 +217,7 @@
        
 
     </div>
-
+    
 
 
 
@@ -175,16 +229,20 @@
         function clickbig(index) {
         var imagebox= document.getElementsByTagName('img');
          var localbtn= document.getElementsByClassName('cat');
+         var roomIn= document.getElementsByClassName('textbox');
          console.log(imagebox.length)
 console.log(prev)
 
          if(prev!=0){
             if(prev != index){
-                imagebox[prev].classList.remove('Image-Enlarge')
-                imagebox[prev].classList.add('darker')
-                imagebox[index].classList.add('Image-Enlarge')
-                imagebox[index].classList.remove('darker')
+       
+                imagebox[prev].classList.remove('Image-Enlarge');
+                imagebox[prev].classList.add('darker');
+                imagebox[index].classList.add('Image-Enlarge');
+                imagebox[index].classList.remove('darker');
 
+                roomIn[index].style.display="block";
+                roomIn[prev].style.display="none";
             }
         
          }else{

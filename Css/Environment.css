@@ -9,7 +9,7 @@ body{
 }
 
     .navtab a {
-        font-size: 26px;
+        font-size: 22px;
         color: rgb(118, 117, 117);
         font-weight: bold;
     }
@@ -45,7 +45,7 @@ body{
         color: #ffff;
         border: none;
 
-        font-size: 26px;
+        font-size: 22px;
         width: 120px;
         font-weight: bold;
     }
@@ -69,9 +69,15 @@ body{
 .showpic{
     position: absolute;
     width:40%;
-border:solid;
+
    margin-left: 59%;
    height: 75%;
+}
+
+.showpic img{
+    width:80%;
+    padding-left:10%;
+    padding-top:10%;
 }
 
 .mycontain{
@@ -162,6 +168,9 @@ animation-fill-mode: forwards;
     filter:brightness(60%)
 }
 
+.textbox{
+    display: none;
+}
 
 }
 

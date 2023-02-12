@@ -170,7 +170,7 @@ display: none;
 }
 
     .navtab a {
-        font-size: 26px;
+        font-size: 22px;
         color: rgb(118, 117, 117);
         font-weight: bold;
     }
@@ -206,7 +206,7 @@ display: none;
         color: #ffff;
         border: none;
 
-        font-size: 26px;
+        font-size: 22px;
         width: 120px;
         font-weight: bold;
     }
